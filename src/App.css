@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.appContainer {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+.sidebar {
+  min-height: 700px;
+}
+.post-card {
+  margin: 20px 50px;
+}
+.hashtag {
+  margin: 0 3px;
+}
+.reaction {
+  margin: 20px 0 0 0;
+}
+.createPost {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.welcome-msg {
+  margin: 60px;
+}
+.loader {
+  margin-top: 100px;
+}
+.spinner {
+  height: 60px;
+  width: 60px;
+}
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+}
+.sign-up-form-container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.sign-up-form-container {
+  border-radius: 18px;
+  padding: 20px;
+}
+.elm-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  margin-bottom: 24px;
+  width: 420px;
+}
+.row-1-input {
+  margin-top: 8px;
+  width: 88%;
+}
+.sign-up-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-header {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.sign-up-para {
+  font-size: 18px;
+}
+.row2 {
+  font-weight: bolder;
+}
+.PhoneInputInput:focus-visible {
+  width: 100px;
+}
+.Gender {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 40px;
+  align-items: center;
+}
+.radio-btn {
+  font-weight: lighter;
+}
+.sub-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-btn {
+  border: none;
+  height: 55px;
+  width: 200px;
+  font-size: 28px;
+  border-radius: 26px;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.sign-up-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.sign-up-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.sign-up-btn-link {
+  color: white;
+  text-decoration: none;
+}
+.sign-up-btn:hover span {
+  padding-right: 25px;
+}
+.sign-up-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.sign-up-foot {
+  text-align: center;
+}
+#or {
+  font-weight: bold;
+}
+.check-pass {
+  font-weight: lighter;
+  margin-left: 3px;
+}
+.sign-up {
+  text-decoration: none;
+}
+.log-in-btn {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+ .btn-hover {
+  position: relative;
+  cursor: pointer;
+}
+.me-2:hover .log-in-btn {
+  color: black;
+}
+.tabactive1 {
+  position: absolute;
+  background-color: #00A877;
+  height: 5px;
+  width: 58px;
+  bottom: -15px;
+  right: 0px;
+}
+.tabactive2 {
+  position: absolute;
+  background-color: #00A877;
+  height: 5px;
+  width: 66px;
+  bottom: -15px;
+  right: 0px;
+}
+.tabactive3 {
+  position: absolute;
+  background-color: #00A877;
+  height: 5px;
+  width: 83px;
+  bottom: -15px;
+  right: 0px;
+}
+.hide {
+  display : none;
+}
+/* #03c04a */
